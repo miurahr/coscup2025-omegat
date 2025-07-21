@@ -1,0 +1,7 @@
+node_modules/
+.idea/
+output/
+*.iml
+*.html
+*.pdf
+*.pptx
