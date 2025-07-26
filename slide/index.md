@@ -2,9 +2,16 @@
 marp: true
 title: OmegaT: Desktop Translation Platform for Professionals and FLOSS Contributors
 description: Presentation for COSCUP 2025 - Taiwan L10N in FLOSS Projects
-theme: uncover
+theme: gaia
 class: lead
 paginate: true
+style: |
+     :root {
+         --color-background: #fff;
+         --color-foreground: #333;
+         --color-highlight: #f96;
+         --color-dimmed: #888;
+     }
 ---
 
 <!-- Title Slide -->
@@ -76,19 +83,11 @@ paginate: true
 
 ---
 
-## 🔎 Interface & Core Panes
+## 🔎 Interface & Panes
 
-- **Main panes**: Editing (source/target), Fuzzy Matches, Glossary
-- **Optional panes**: MT, Dictionary, Notes, Comments
-- Tag walls are grayed out, non‑editable to prevent corruption 
+![](images/omegat-startup-screen.png)
 
----
-
-## Interface
-
-![center: 80%](images/omegat-startup-screen.png)
-
----
+--- 
 
 ## ✅ Feature Highlights
 
@@ -99,12 +98,21 @@ paginate: true
 
 ---
 
+## 🔎 Interface and Panes
+
+- **Main panes**: Editing (4), Fuzzy Matches(5), Glossary(2), Property(7)
+- **Optional panes**: MT(3), Dictionary(6), Notes(1), Comments
+- Tag walls are grayed out, non‑editable to prevent corruption
+
+![bg right:40% 80%](images/omegat--screen-argumented.png)
+
+---
+
 ## 🤖 AI‑Augmented Workflow
 
 - Plugins for major MT engines: DeepL, Google Translate, TexTra etc.
 - Apply AI suggestions *when needed*, without being locked in
 - Use TM and glossaries first; then machine translation as a helper
-
 
 ---
 
