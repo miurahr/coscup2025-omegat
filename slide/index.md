@@ -2,7 +2,7 @@
 marp: true
 title: OmegaT: Desktop Translation Platform for Professionals and FLOSS Contributors
 description: Presentation for COSCUP 2025 - Taiwan L10N in FLOSS Projects
-theme: default
+theme: uncover
 class: lead
 paginate: true
 ---
@@ -13,105 +13,100 @@ paginate: true
 
 **Hiroshi Miura**  
 COSCUP 2025 · TR210 · August 9, 13:40–14:10  
-🇬🇧 English | 🇹🇼 Taiwan L10N in FLOSS Projects
+🇹🇼 Taiwan L10N in FLOSS Projects
 
 ---
 
-## Why Localization (L10N) Matters
+## 🌍 Why Localization (L10N) Matters
 
-- Essential to reach local users
-- Breaks language barriers for FLOSS adoption
-- Builds inclusive global communities
-- Enables digital sovereignty
+- Brings open‑source software to global users
+- Breaks language barriers, fosters inclusivity
+- Supports digital sovereignty and community growth
+- FLOSS thrives when translated by communities themselves
 
 ---
 
 ## New Era: AI & Translation
 
-- Generative AI services (e.g. ChatGPT, DeepL)
+- Generative AI services (e.g. ChatGPT, Gemini)
 - Convenience, but vendor lock-in risk
 - Privacy, licensing, and data concerns
 - FLOSS needs **open** and **user-controlled** tools
 
 ---
 
-## Introducing OmegaT
+## 🚀 OmegaT: What & Why?
 
-- Free/libre, open-source CAT (Computer-Assisted Translation) tool
-- Java-based cross-platform desktop app
-- First released in 2000s – matured by community
-- Used by both professionals and volunteers
-
-![bg right 50%](https://omegat.org/sites/default/files/2021-05/OmegaT-screenshot-mainwindow.png)
+- Free/open‑source Computer‑Assisted Translation (CAT) tool
+- Developed by volunteers; cross‑platform Java app (Windows/macOS/Linux)
+- Great starting point for professionals and newcomers alike
 
 ---
 
-## OmegaT Key Features
+## 🛠 What Makes a CAT Tool Useful?
 
-- ✅ Translation Memory (TMX format)
-- ✅ Glossary support (CSV/TBX)
-- ✅ Machine Translation integration
-- ✅ Bi-lingual dictionary support
-- ✅ QA checks and tag validation
-- ✅ Keyboard-driven workflow
+- Builds a **Translation Memory (TM)** for consistent reuse
+- Supports **Glossaries** to standardize terminology
+- Segment‑based interface ensures no text is missed
+- Retains formatting across complex document types (DOCX, ODT, HTML etc.)
 
 ---
 
-## Example Use Cases
+## ⏱ Instant‑Start
 
-- Professional document translation
-- FLOSS app localization (UI, manuals)
-- NGO multilingual publications
-- Collaborative volunteer projects (e.g. LibreOffice, WeeklyOSM)
-
----
-
-## MT Integration (AI Support)
-
-- Plugins for:
-    - Google Translate
-    - DeepL
-    - TexTra (NICT)
-    - ModernMT, Apertium, and more
-- You stay in control: **selective AI usage**
+1. **Create a new project**: name, source and target languages
+2. **Import source files** into `/source` folder via Project menu
+3. **Translate segment by segment**: Ctrl + U to move through segments, inline editing
+4. **Validate tags** before export: Ctrl + Shift + V
+5. **Generate translated documents**: Ctrl + D → outputs in `/target` folder
 
 ---
 
-## Desktop Workflow Snapshot
+## 🔎 Interface & Core Panes
 
-**1. Load Project**  
-**2. Translate Segments**  
-**3. Check TM/Glossary Suggestions**  
-**4. Use MT When Needed**  
-**5. Validate and Export**
-
-![bg right 50%](https://omegat.org/sites/default/files/2021-05/OmegaT-screenshot-translation.png)
+- **Main panes**: Editing (source/target), Fuzzy Matches, Glossary
+- **Optional panes**: MT, Dictionary, Notes, Comments
+- Tag walls are grayed out, non‑editable to prevent corruption 
 
 ---
 
-## FLOSS Contribution Examples
+## Interface
 
-- WeeklyOSM: Markdown articles translated by team
-- OmegaT used with Git + OmegaT plugin for collaboration
-- OmegaT plugin for machine-assisted terminology lookup
+![center: 80%](images/omegat-startup-screen.png)
 
 ---
 
-## Community-Driven Development
+## ✅ Feature Highlights
 
-- GitHub: [`github.com/omegat-org/omegat`](https://github.com/omegat-org/omegat)
-- Plugins and filters supported
-- Volunteers: developers, translators, testers
-- International collaboration
+- Handles **fuzzy matches** from TMX Memory, AUTO‑propagates across segments
+- Glossary lookup and **bi‑lingual dictionaries**
+- Supports **multiple file types**, batch project translation
+- Simple **keyboard-driven workflow**, efficient for power users
 
 ---
 
-## OmegaT Philosophy
+## 🤖 AI‑Augmented Workflow
 
-- Free to use, free to modify
-- No lock-in: all data stays with you
-- User privacy respected
-- Built by and for the translation community
+- Plugins for major MT engines: DeepL, Google Translate, TexTra etc.
+- Apply AI suggestions *when needed*, without being locked in
+- Use TM and glossaries first; then machine translation as a helper
+
+
+---
+
+## 🧩 How FLOSS Users Can Benefit
+
+- Volunteers/localizers can translate documentation, manuals, and UI
+- Supports sharing TMX and glossaries across projects and translators
+- Ideal for projects like LibreOffice, WeeklyOSM, local L10N initiatives
+
+---
+
+## 🤝 Join the OmegaT Community
+
+- GitHub repo: *omegat-org/omegat*
+- Active user group and forum support
+- Contribute: code, plugins, translations, documentation
 
 ---
 
@@ -124,22 +119,22 @@ COSCUP 2025 · TR210 · August 9, 13:40–14:10
 
 ---
 
-## Call to Action
+## 🏃‍♂️ Call to Action
 
-- Try OmegaT: [https://omegat.org](https://omegat.org)
-- Translate a FLOSS project with it
-- Join our community: contribute plugins, glossaries, ideas
-- Keep localization open!
+- Download OmegaT (**free**) → [omegat.org](https://omegat.org)
+- Try it out with a FLOSS project or documentation
+- Join our community: contribute plugins, ideas
+- Help build a multilingual open-source ecosystem!
 
 ---
 
-## Thank You!
+## 🙏 Thank You!
 
-**Questions?**  
-Let’s build a multilingual, FLOSS-friendly world together.
+**Questions & discussion welcome!**  
+Let’s make FLOSS truly global together with OmegaT.  
 
-_Hiroshi Miura_  
-🔗 [omegat.org](https://omegat.org) · [github.com/omegat-org](https://github.com/omegat-org/omegat)
+_Hiroshi Miura_ - [omegat.org](https://omegat.org) - GitHub: *omegat-org/omegat*
+
 
 <!-- Add this anywhere in your Markdown file -->
 <script type="module">
