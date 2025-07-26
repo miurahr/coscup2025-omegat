@@ -8,16 +8,37 @@ paginate: true
 ---
 
 <!-- Title Slide -->
+<!-- _class: gaia lead -->
+<!-- _paginate: false -->
+<!-- _header: '' -->
+<!-- _footer: '' -->
+
+![bg right:40% 100%](images/banner-mobile.png)
+
 # OmegaT
 ### Desktop Translation Platform for Professionals and FLOSS Contributors
 
 **Hiroshi Miura**  
-COSCUP 2025 · TR210 · August 9, 13:40–14:10  
-🇹🇼 Taiwan L10N in FLOSS Projects
+🇹🇼 L10N in FLOSS Projects
 
 ---
 
-## 🌍 Why Localization (L10N) Matters
+<!-- 講演者紹介 -->
+
+![bg right:40% 50%](images/self-stand.jpg)
+
+**Who am I**
+- Hiroshi Miura from Tokyo
+- **FLOSS** contributor: Linux, Python etc.
+- Lead **developer** of OmegaT
+- President of **OSM Foundation Japan**
+- LinkedIn(@miurahr)
+
+---
+
+<!-- Opening hook -->
+
+## 🌍 Why L10N Matters
 
 - Brings open‑source software to global users
 - Breaks language barriers, fosters inclusivity
@@ -26,14 +47,7 @@ COSCUP 2025 · TR210 · August 9, 13:40–14:10
 
 ---
 
-## New Era: AI & Translation
-
-- Generative AI services (e.g. ChatGPT, Gemini)
-- Convenience, but vendor lock-in risk
-- Privacy, licensing, and data concerns
-- FLOSS needs **open** and **user-controlled** tools
-
----
+<!-- What is OmegaT -->
 
 ## 🚀 OmegaT: What & Why?
 
@@ -102,11 +116,12 @@ COSCUP 2025 · TR210 · August 9, 13:40–14:10
 
 ---
 
-## 🤝 Join the OmegaT Community
+## New Era: AI & Translation
 
-- GitHub repo: *omegat-org/omegat*
-- Active user group and forum support
-- Contribute: code, plugins, translations, documentation
+- Generative AI services (e.g. ChatGPT, Gemini)
+- Convenience, but vendor lock-in risk
+- Privacy, licensing, and data concerns
+- FLOSS needs **open** and **user-controlled** tools
 
 ---
 
@@ -116,6 +131,14 @@ COSCUP 2025 · TR210 · August 9, 13:40–14:10
 - ✅ XLIFF 2.0 filter support
 - 🔍 AI-assisted Quality Assurance
 - 🌍 Better support for FLOSS localization workflows
+
+---
+
+## 🤝 Join the OmegaT Community
+
+- GitHub repo: *omegat-org/omegat*
+- Active user group and forum support
+- Contribute: code, plugins, translations, documentation
 
 ---
 
