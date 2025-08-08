@@ -1,6 +1,6 @@
 ---
 marp: true
-title: OmegaT: Desktop Translation Platform for Professionals and FLOSS Contributors
+title: "OmegaT: Desktop Translation Platform for Professionals and FLOSS Contributors"
 description: Presentation for COSCUP 2025 - Taiwan L10N in FLOSS Projects
 theme: gaia
 class: lead
@@ -126,6 +126,8 @@ style: |
 - Volunteers can translate documentation, manuals, and UI
 - Supports sharing *memories* and *glossaries* across projects
 - Interoperable with Web platforms such as Transifex, Crowdin, and wikimedia
+- Team project easily hosted on GitHub repository
+- Automated publish with GitHub Actions
 
 ---
 
@@ -140,9 +142,19 @@ style: |
 
 ---
 
-## What's Coming Next?
+## Next New features?
 
-- 🧩 Plugin system improvements
+- Bundled spell checker dictionaries
+- Support Windows 11/Linux on ARM64
+- Support M1/M2 Mac
+- Installer variants: DEB and RPM
+
+---
+
+
+## What's Coming in Future?
+
+- 🧩 Plugin online installer
 - ✅ Support for popular Gen-AI engines
 - 🔍 AI-assisted Quality Assurance
 - 🌍 Better support for FLOSS localization workflows
