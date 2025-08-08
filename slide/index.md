@@ -47,8 +47,8 @@ style: |
 
 ## 🌍 Why L10N Matters
 
-- Brings open‑source software to global users
-- Breaks language barriers, fosters inclusivity
+- Bring open‑source software -> Local users
+- ❌ language barriers, 💕 fosters inclusive
 - Supports digital sovereignty and community growth
 - FLOSS thrives when translated by communities themselves
 
@@ -58,9 +58,12 @@ style: |
 
 ## 🚀 OmegaT: What & Why?
 
-- Free/open‑source Computer‑Assisted Translation (CAT) tool
-- Developed by volunteers; cross‑platform Java app (Windows/macOS/Linux)
+- Free/Open‑source Computer‑Assisted Translation (CAT) tool
+- Developed by volunteers; cross‑platform Java application (Windows/macOS/Linux)
 - Great starting point for professionals and newcomers alike
+- High speed / high-quality translation for each translator
+
+![bg right:30% 30%](images/OmegaT_for_Beginners_en_htm_1bb6e15fce01258c.jpg)
 
 ---
 
@@ -68,17 +71,18 @@ style: |
 
 - Builds a **Translation Memory (TM)** for consistent reuse
 - Supports **Glossaries** to standardize terminology
-- Segment‑based interface ensures no text is missed
-- Retains formatting across complex document types (DOCX, ODT, HTML etc.)
+- Combines AI-powered MT, and community knowledge
+- Segment(片段)‑based interface ensures **no text is missed**
+- Keeps formatting across various document types
 
 ---
 
 ## ⏱ Instant‑Start
 
 1. **Create a new project**: name, source and target languages
-2. **Import source files** into `/source` folder via Project menu
+2. **Import source files** into `/source` folder
 3. **Translate segment by segment**: Ctrl + U to move through segments, inline editing
-4. **Validate tags** before export: Ctrl + Shift + V
+4. **Validate tags** before export result: Ctrl + Shift + V
 5. **Generate translated documents**: Ctrl + D → outputs in `/target` folder
 
 ---
@@ -93,8 +97,9 @@ style: |
 
 - Handles **fuzzy matches** from TMX Memory, AUTO‑propagates across segments
 - Glossary lookup and **bi‑lingual dictionaries**
-- Supports **multiple file types**, batch project translation
+- Supports **multiple file types** such as ODT, DOCX, Markdown, PO-file, etc.
 - Simple **keyboard-driven workflow**, efficient for power users
+- Modular extension by bundled and 3rd party **Plugins** 
 
 ---
 
@@ -110,17 +115,17 @@ style: |
 
 ## 🤖 AI‑Augmented Workflow
 
-- Plugins for major MT engines: DeepL, Google Translate, TexTra etc.
+- Plugins for major AI-MT engines: DeepL, Google, TexTra, etc.
 - Apply AI suggestions *when needed*, without being locked in
-- Use TM and glossaries first; then machine translation as a helper
+- Use *memory* and *glossaries* first; then machine translation as a helper
 
 ---
 
 ## 🧩 How FLOSS Users Can Benefit
 
-- Volunteers/localizers can translate documentation, manuals, and UI
-- Supports sharing TMX and glossaries across projects and translators
-- Ideal for projects like LibreOffice, WeeklyOSM, local L10N initiatives
+- Volunteers can translate documentation, manuals, and UI
+- Supports sharing *memories* and *glossaries* across projects
+- Interoperable with Web platforms such as Transifex, Crowdin, and wikimedia
 
 ---
 
@@ -131,12 +136,14 @@ style: |
 - Privacy, licensing, and data concerns
 - FLOSS needs **open** and **user-controlled** tools
 
+![bg right:50% 50%](images/freedom_cat_presentation.svg)
+
 ---
 
 ## What's Coming Next?
 
 - 🧩 Plugin system improvements
-- ✅ XLIFF 2.0 filter support
+- ✅ Support for popular Gen-AI engines
 - 🔍 AI-assisted Quality Assurance
 - 🌍 Better support for FLOSS localization workflows
 
@@ -144,9 +151,10 @@ style: |
 
 ## 🤝 Join the OmegaT Community
 
+- Web site: *omegat.org*
 - GitHub repo: *omegat-org/omegat*
 - Active user group and forum support
-- Contribute: code, plugins, translations, documentation
+- Call for Contribution: code, plugins, translations, documentation
 
 ---
 
