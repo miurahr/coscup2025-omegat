@@ -97,7 +97,7 @@ style: |
 
 - Handles **fuzzy matches** from TMX Memory, AUTO‑propagates across segments
 - Glossary lookup and **bi‑lingual dictionaries**
-- Supports **multiple file types** such as ODT, DOCX, Markdown, PO-file, etc.
+- Supports **multiple file types** such as ODT, DOCX, Markdown, PO-file, HTML, etc.
 - Simple **keyboard-driven workflow**, efficient for power users
 - Modular extension by bundled and 3rd party **Plugins** 
 
@@ -126,8 +126,42 @@ style: |
 - Volunteers can translate documentation, manuals, and UI
 - Supports sharing *memories* and *glossaries* across projects
 - Interoperable with Web platforms such as Transifex, Crowdin, and wikimedia
-- Team project easily hosted on GitHub repository
-- Automated publish with GitHub Actions
+
+---
+
+## ⚽ Easy Team work 共作
+
+<div class="mermaid">
+graph TB
+    %% GitHub Repository
+    GH[GitHub Repository<br/>Team Project <br/>ex EN-ZH]
+    XML[(Translation Memory DB<br/>XML File<br/>project-save.tmx)]
+    %% OmegaT Desktop Applications
+    T1[Translator 1<br/>OmegaT Desktop]
+    T2[Translator 2<br/>OmegaT Desktop]
+    T3[Translator 3<br/>OmegaT Desktop]
+    T4[Translator N<br/>OmegaT Desktop]
+    %% Connections from GitHub to Translators
+    GH -->|Clone/Pull<br/>Project Files| T1
+    GH -->|Clone/Pull<br/>Project Files| T2
+    GH -->|Clone/Pull<br/>Project Files| T3
+    GH -->|Clone/Pull<br/>Project Files| T4
+    %% Connections from Translators to Auto-merge
+    T1 -->|Translation<br/>Segments<br/>Merge| XML
+    T2 -->|Translation<br/>Segments<br/>Merge| XML
+    T3 -->|Translation<br/>Segments<br/>Merge| XML
+    T4 -->|Translation<br/>Segments<br/>Merge| XML
+    %% XML back to GitHub
+    XML -->|Push/Commit<br/>Updated TM| GH
+    %% Styling
+    classDef translator fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    classDef github fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef database fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    class T1,T2,T3,T4 translator
+    class GH github
+    class XML database
+</div>
+
 
 ---
 
@@ -183,12 +217,12 @@ style: |
 
 **Questions & discussion welcome!**  
 Let’s make FLOSS truly global together with OmegaT.  
-
-_Hiroshi Miura_ - [omegat.org](https://omegat.org) - GitHub: *omegat-org/omegat*
-
-
 <!-- Add this anywhere in your Markdown file -->
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
+_Hiroshi Miura_ - [omegat.org](https://omegat.org) - GitHub: *omegat-org/omegat*
+
+
+
