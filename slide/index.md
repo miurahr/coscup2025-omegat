@@ -113,19 +113,11 @@ style: |
 
 ---
 
-## 🤖 AI‑Augmented Workflow
-
-- Plugins for major AI-MT engines: DeepL, Google, TexTra, etc.
-- Apply AI suggestions *when needed*, without being locked in
-- Use *memory* and *glossaries* first; then machine translation as a helper
-
----
-
 ## 🧩 How FLOSS Users Can Benefit
 
-- Volunteers can translate documentation, manuals, and UI
+- Volunteers can translate documentation, manuals, and UI without know the formats
 - Supports sharing *memories* and *glossaries* across projects
-- Interoperable with Web platforms such as Transifex, Crowdin, and wikimedia
+- Interoperable with Web platforms such as Transifex, Crowdin, and Wikimedia
 
 ---
 
@@ -176,19 +168,27 @@ graph TB
 
 ---
 
-## Next New features?
+## 🤖 AI‑Augmented Workflow
 
-- Bundled spell checker dictionaries
-- Support Windows 11/Linux on ARM64
-- Support M1/M2 Mac
-- Installer variants: DEB and RPM
+- Plugins for major AI/MT engines: DeepL, Google Tr, TexTra, Azure Tr, OpenAI etc.
+- Apply AI suggestions **when needed**, without being locked in
+- Use **memory** and **glossaries** first; machine translation is helper
 
 ---
 
+## OmegaT 6.1 Beta: New features?
 
-## What's Coming in Future?
+- Bundled spell checker dictionaries
+- Better UI for Hi-resolution display
+- Support Windows 11/Linux on ARM64
+- Support M1/M2 Mac
+- More Installer variants: DEB and RPM
 
-- 🧩 Plugin online installer
+---
+
+## What's Coming in Future (plans)?
+
+- 🧩 Online Plugin catalog and install
 - ✅ Support for popular Gen-AI engines
 - 🔍 AI-assisted Quality Assurance
 - 🌍 Better support for FLOSS localization workflows
@@ -200,16 +200,16 @@ graph TB
 - Web site: *omegat.org*
 - GitHub repo: *omegat-org/omegat*
 - Active user group and forum support
-- Call for Contribution: code, plugins, translations, documentation
+- Call for Contribution: code, plugins, **translations**, documentation
 
 ---
 
 ## 🏃‍♂️ Call to Action
 
 - Download OmegaT (**free**) → [omegat.org](https://omegat.org)
-- Try it out with a FLOSS project or documentation
-- Join our community: contribute plugins, ideas
-- Help build a multilingual open-source ecosystem!
+- Join our community: contribute l10n, ideas
+- Try it out with OmegaT L10N/zh-TW project
+- Help build a multilingual free software/open-source ecosystem!
 
 ---
 
